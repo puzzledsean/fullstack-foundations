@@ -24,19 +24,9 @@ class webServerHandler(BaseHTTPRequestHandler):
                 restaurants = session.query(Restaurant).all()
                 for restaurant in restaurants:
                     output += '<h1>{}</h1>'.format(restaurant.name) 
-                output += "</body></html>"
-                self.wfile.write(output)
-                print output
-                return
-
-            if self.path.endswith("/hola"):
-                self.send_response(200)
-                self.send_header('Content-type', 'text/html')
-                self.end_headers()
-                output = ""
-                output += "<html><body>"
-                output += "<h1>&#161 Hola !</h1>"
-                output += '''<form method='POST' enctype='multipart/form-data' action='/hello'><h2>What would you like me to say?</h2><input name="message" type="text" ><input type="submit" value="Submit"> </form>'''
+                    output += '<a href="#">Edit</a>'
+                    output += '</br>'
+                    output += '''<a href="#">Delete</a>'''
                 output += "</body></html>"
                 self.wfile.write(output)
                 print output
