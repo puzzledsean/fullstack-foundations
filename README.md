@@ -10,7 +10,9 @@ https://github.com/udacity/fullstack-nanodegree-vm
 - [x] Lesson 1: CRUD
   - Basics of Vagrant
   - SQLAlchemy
-- [ ] Lesson 2: Making a webserver
+- [x] Lesson 2: Making a webserver
+  - Python BaseHTTPServer GET/POST requests
+  - Restaurant creation/read/update/delete functionality
 - [ ] Lesson 3: Developing with frameworks
 - [ ] Lesson 4: Iterative Development
 
