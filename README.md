@@ -18,8 +18,10 @@ https://github.com/udacity/fullstack-nanodegree-vm
   - Templating logic with Jinja/Flask
   - Message flashing in Flask
   - Jsonify data and make API endpoints
-- [ ] Lesson 4: Iterative Development
-
+- [x] Lesson 4: Iterative Development
+  - Added CRUD for restaurants
+  - Additional fields for menu items (i.e. description, price, course)
+  - API endpoint for restaurant JSON
 
 <hr>
 
